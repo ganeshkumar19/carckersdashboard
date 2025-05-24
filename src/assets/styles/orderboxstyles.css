@@ -1,0 +1,211 @@
+.orderInformationContainer{
+    background-color: #DDDBC6;
+    box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+
+.odRow{
+    border-bottom: 2px solid #000;
+}
+
+.orderInfoText{
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.spanInfoText{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+  
+.orderlabel {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.feedbackInputText{
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.pcName{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;  
+}
+
+.pcSizeQty{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;  
+}
+
+
+.pcPrice{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;  
+}
+
+.LodText{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;   
+}
+
+.sucessText{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;  
+}
+
+
+@media (min-width: 363px) {
+    .orderInfoText{
+        font-size: 14px;
+    }
+    .LodText{
+        font-size: 16px;
+    }
+    .sucessText{
+        font-size: 16px;
+    }
+}
+@media (min-width: 399px) {
+    .orderInformationContainer{
+        max-width: 380px;
+    }
+    .orderInfoText{
+        font-size: 14px;
+    }
+    .pcName{
+        font-size: 16px;
+    }
+    .LodText{
+        font-size: 18px;
+    }
+    .sucessText{
+        font-size: 18px;
+    }
+    
+    .pcSizeQty{
+        font-size: 14px;
+    }
+    
+    .pcPrice{
+        font-size: 16px;
+    }
+    .orderInfoText{
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .orderInformationContainer{
+        max-width: 540px;
+    }
+    .orderlabel {
+        font-size: 18px;
+    }
+    .pcName{
+        font-size: 18px;
+    }
+    
+    .pcSizeQty{
+        font-size: 16px;
+    }
+    
+    .pcPrice{
+        font-size: 18px;
+    }
+    .orderInfoText{
+        font-size: 18px;
+    }
+    .LodText{
+        font-size: 20px;
+    }
+    .sucessText{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) {
+    .orderInformationContainer{
+        min-width: 720px;
+    }
+    .orderlabel {
+        font-size: 20px;
+    }
+    .pcName{
+        font-size: 20px;
+    }
+    
+    .pcSizeQty{
+        font-size: 16px;
+    }
+    
+    .pcPrice{
+        font-size: 18px;
+    }
+    .orderInfoText{
+        font-size: 18px;
+    }
+    .LodText{
+        font-size: 22px;
+    }
+    .sucessText{
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 992px) {
+    .orderInformationContainer{
+        min-width: 780px;
+    }
+    .pcName{
+        font-size: 20px;
+    }
+    
+    .pcSizeQty{
+        font-size: 18px;
+    }
+    
+    .pcPrice{
+        font-size: 20px;
+    }
+    .LodText{
+        font-size: 28px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .orderInformationContainer{
+        min-width: 920px;
+    }
+    .pcName{
+        font-size: 22px;
+    }
+    
+    .pcSizeQty{
+        font-size: 20px;
+    }
+    
+    .pcPrice{
+        font-size: 22px;
+    }
+  }
